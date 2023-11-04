@@ -1,4 +1,4 @@
-import { OtpStorage } from 'types';
+import type { OtpStorage } from '../types';
 import type { Driver } from 'unstorage';
 
 export default class UnstorageAdapter implements OtpStorage {

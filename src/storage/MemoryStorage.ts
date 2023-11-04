@@ -1,4 +1,4 @@
-import { OtpStorage } from '../types';
+import type { OtpStorage } from '../types';
 
 /**
  * Simple implementation of storage

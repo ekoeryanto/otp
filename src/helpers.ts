@@ -29,9 +29,8 @@ export function browserDecodeToken<Data = unknown>(
       customData: parts[5],
     };
   } catch (error) {
-    throw new Error('failed to decode otp token', {
-      cause: error,
-    });
+    // @ts-ignore
+    throw new Error('failed to decode otp token', { cause: error });
   }
 }
 

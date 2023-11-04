@@ -1,5 +1,5 @@
 import { OtpError } from './OtpError';
-import { OtpData, OtpMeta } from './types';
+import type { OtpData, OtpMeta } from './types';
 
 /**
  * @internal
