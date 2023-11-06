@@ -1,21 +1,20 @@
 {
-  "name": "@romanzy/otp",
+  "name": "@pake/otp",
   "description": "Simple and powerful way to implement your own OTP workflows",
-  "version": "0.6.2",
+  "version": "0.7.3",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": "./dist/index.js",
     "./helpers": "./dist/helpers.js",
-    "./storage/*": "./dist/storage/*.js"
+    "./storage": "./dist/storage/index.js"
   },
   "files": [
     "dist",
     "src"
   ],
   "engines": {
-    "node": "18",
-    "pnpm": "8"
+    "node": ">=18"
   },
   "scripts": {
     "dev": "vitest",
@@ -50,9 +49,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/romanzy313/otp.git"
+    "url": "https://github.com/ekoeryanto/otp.git"
   },
   "author": "Roman Volovoy",
+  "maintainers": ["Eko Eryanto"],
   "devDependencies": {
     "@types/node": "^18.17.17",
     "@typescript-eslint/eslint-plugin": "^5.62.0",

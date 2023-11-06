@@ -1,4 +1,4 @@
-# @romanzy/otp
+# @pake/otp
 
 A simple and scalable javascript library to perform OTP operations. Works in Node, Deno, and Bun runtimes.
 
@@ -11,10 +11,10 @@ A simple and scalable javascript library to perform OTP operations. Works in Nod
 ## Installation
 
 ```bash
-npm install @romanzy/otp
-yarn add @romanzy/otp
-pnpm install @romanzy/otp
-bun install @romanzy/otp
+npm install @pake/otp
+yarn add @pake/otp
+pnpm install @pake/otp
+bun install @pake/otp
 ```
 
 ## How to use
@@ -36,8 +36,8 @@ Examples will use the `MemoryStorage` implementation, which is a simple wrapper 
 Create an instance of `OtpService`
 
 ```ts
-import { OtpService, OtpError } from '@romanzy/otp';
-import Storage from '@romanzy/otp/storage/MemoryStorage';
+import { OtpService, OtpError } from '@pake/otp';
+import Storage from '@pake/otp/storage/MemoryStorage';
 type SendArgs = { locale: string };
 
 export const otpService = new OtpService({
@@ -166,8 +166,8 @@ export type OtpResult<Data = unknown> = {
 ## How to use UnstorageAdapter
 
 ```ts
-import { OtpService } from '@romanzy/otp';
-import Storage from '@romanzy/otp/storage/UnstorageAdapter';
+import { OtpService } from '@pake/otp';
+import Storage from '@pake/otp/storage/UnstorageAdapter';
 import redisDriver from 'unstorage/drivers/redis';
 
 const otpService = new OtpService({
@@ -186,7 +186,7 @@ const otpService = new OtpService({
 import {
   numericalSolutionGenerator,
   browserDecodeToken,
-} from '@romanzy/otp/helpers';
+} from '@pake/otp/helpers';
 
 // 6-digit code generator
 const generateSolution = numericalSolutionGenerator(6);
@@ -198,7 +198,7 @@ const { account, expiresAt, resendAt, attemptsRemaining } =
 
 ## Typedoc API overview
 
-Available [here](https://romanzy313.github.io/otp/)
+Available [here](https://pake313.github.io/otp/)
 
 ## Examples:
 

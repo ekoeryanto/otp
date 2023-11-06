@@ -1,6 +1,6 @@
 {
   "$schema": "https://typedoc.org/schema.json",
-  "name": "@romanzy/otp",
+  "name": "@pake/otp",
   "out": "docs",
   "entryPoints": ["./src/**/*.ts"],
   "entryPointStrategy": "resolve",

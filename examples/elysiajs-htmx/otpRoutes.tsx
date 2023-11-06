@@ -1,5 +1,5 @@
 import Elysia, { t } from 'elysia';
-import { OtpError } from '@romanzy/otp';
+import { OtpError } from '@pake/otp';
 import { OtpForm, OtpPage } from './templates';
 import { RootLayout } from './templates/RootLayout';
 import { otpService } from './otpService';

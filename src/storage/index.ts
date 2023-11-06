@@ -1,2 +1,2 @@
-export * from './MemoryStorage'
-export * from './UnstorageAdapter'
+export { default as MemoryStorage } from './MemoryStorage';
+export { default as UnstorageAdapter } from './UnstorageAdapter';

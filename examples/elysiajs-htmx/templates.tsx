@@ -1,4 +1,4 @@
-import type { OtpResult } from '@romanzy/otp';
+import type { OtpResult } from '@pake/otp';
 
 export const OtpForm: Component<OtpResult> = ({ data, meta, error }) => {
   const inputEnabled = !meta.isExpired && meta.canAttempt;

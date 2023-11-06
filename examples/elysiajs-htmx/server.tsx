@@ -21,8 +21,8 @@ new Elysia()
   .use(trailingSlashPlugin)
   .use(html())
   .get('/', () => (
-    <RootLayout title="@romanzy/otp example">
-      <h1>@romanzy/otp and htmx example</h1>
+    <RootLayout title="@pake/otp example">
+      <h1>@pake/otp and htmx example</h1>
 
       <div>
         To see how login is done go to <a href="/otp/">test page</a>

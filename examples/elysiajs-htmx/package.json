@@ -12,7 +12,7 @@
   "dependencies": {
     "@elysiajs/html": "^0.7.3",
     "@elysiajs/static": "^0.7.1",
-    "@romanzy/otp": "workspace:^",
+    "@pake/otp": "workspace:^",
     "elysia": "^0.7.21",
     "htmx.org": "^1.9.6",
     "unstorage": "^1.9.0"
